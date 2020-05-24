@@ -36,3 +36,27 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r pressure2, fig.width=5, fig.width=5}
+plot(pressure)
+
+```
+
+```{r}
+knitr::kable(head(cars))
+```
+$$ y = \beta_0 + \beta_1x^2 + \beta_2 x^3 + \epsilon +\   $$
+
+
+## Colocando imagens
+
+Aqui vai uma imagem inserida
+![r logo](https://www.r-project.org/logo/Rlogo.svg)
+
+![sunstar](sunstar/sunstar.png)
+
+
+
+![sunstar](sunstar/sunstar.gif)
+
+![sunstar](sunstar/sunstar.mp4)
